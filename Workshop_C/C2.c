@@ -2,14 +2,14 @@
 
 int main(){
     
-    float temp;
+    float F, C;
 
-    printf("Temperature en C : \n");
-    scanf("%f", &temp);
+    printf("Temperature en F : \n");
+    scanf("%f", &F);
 
-    temp = (temp * 1.8) + 32;
+    C = F / 1.8 - 32;
 
-    printf("Temperature en F : %f\n", temp);
+    printf("Temperature en C : %f\n", C);
 
     return 0;
 }
