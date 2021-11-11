@@ -1,7 +1,5 @@
 int main()
 {
-    printf("Hello\n");
-
     char nom[20];
     char prenom[20];
     int age;

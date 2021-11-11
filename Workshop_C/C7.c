@@ -1,7 +1,5 @@
 int main()
 {
-    printf("Hello\n");
-
     int a, b, mul, somme, sous;
     float div , res;
 
