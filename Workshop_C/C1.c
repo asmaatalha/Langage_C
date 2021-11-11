@@ -1,6 +1,6 @@
 int main()
 {
-    printf("Hello");
+    printf("Hello\n");
 
     char nom[20];
     char prenom[20];
@@ -8,19 +8,19 @@ int main()
     char sexe[20];
     char tele[20];
 
-    printf("Votre Nom");
+    printf("Votre Nom ");
     scanf("%s", nom);
 
-    printf("Votre Prenom");
+    printf("Votre Prenom ");
     scanf("%s", prenom);
 
-    printf("Votre Age");
+    printf("Votre Age ");
     scanf("%d",&age);
 
-    printf("Votre Sexe");
+    printf("Votre Sexe ");
     scanf("%s", sexe);
 
-    printf("Votre Tele");
+    printf("Votre Tele ");
     scanf("%s", tele);
 
     printf("Nom : %s, Prenom : %s, Age : %d, Sexe : %s, tele : %s", nom, prenom, age, sexe, tele);
