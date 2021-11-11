@@ -2,9 +2,13 @@
 
 int main(){
     
-    float mile, m = 10 ;
-    
-    mile = m * 1.609 * 1000;
+    float mile, m;
+
+    printf("distance en Metre : \n");
+
+    scanf("%f", &m);
+
+    mile = m * 1.609;
 
     printf("distance en Mile : %f\n", mile);
 
