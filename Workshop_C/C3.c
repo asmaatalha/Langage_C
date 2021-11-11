@@ -8,7 +8,7 @@ int main(){
 
     scanf("%f", &m);
 
-    mile = m * 1.609;
+    mile = m * 1609;
 
     printf("distance en Mile : %f\n", mile);
 
