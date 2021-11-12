@@ -8,7 +8,7 @@ int main(){
     printf("Temperature en F : \n");
     scanf("%f", &F);
 
-    C = F / 1.8 - 32;
+    C = (F-32)/1.8;
 
     printf("Temperature en C : %f\n", C);
 
