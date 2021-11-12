@@ -1,4 +1,5 @@
-
+#include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -10,7 +11,6 @@ int main()
     if(nbr<0){
        printf("le nbr est negatif");
     }
-    
     else if(nbr>0){
        printf("le nbr est positif");
     }
