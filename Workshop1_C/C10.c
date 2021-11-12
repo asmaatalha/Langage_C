@@ -6,12 +6,12 @@ int main()
     float r, C;
     float p = 3.14;
 
-    printf("Entrer C: ");
-    scanf("%f", &C);
+    printf("Entrer rayon: ");
+    scanf("%f", &r);
 
-    r = C / 2 * p;
+    C = 2 * p * r;
 
-    printf("rayon la cercle : %f", r);
+    printf("rayon la cercle : %f", C);
 
     return 0;
 }

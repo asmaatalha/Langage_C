@@ -3,19 +3,14 @@
 
 int main()
 {
-   int NbrInverse = 0, nbr;
+   int Nbr;
  
-   printf("Entrez un nombre à inverser\n");
-   scanf("%d", &nbr);
+   printf("Entrez le nombre entier\n");
+   scanf("%d", &Nbr);
+
  
-   while (nbr != 0)
-   {
-      NbrInverse = NbrInverse * 10;
-      NbrInverse = NbrInverse + nbr%10;
-      nbr = nbr/10;
-   }
- 
-   printf("Le nombre en sens inverse est = %d\n", NbrInverse);
+   printf("Le nombre entier est = %d\nle nomber octale %o\n", Nbr, Nbr);
+   printf("Le nombre entier est = %d\nle nomber hexa %x", Nbr, Nbr);
  
    return 0;
 }
