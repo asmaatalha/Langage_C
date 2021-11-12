@@ -1,13 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
 int main()
 {
-    float n, i;
+    int n, i;
 
     printf("Entrer le Nombre: ");
     scanf("%d", &n);
 
     i = 1 / n;
 
-    printf("son inverse est : %f", i);
+    printf("son inverse est : %d", i);
 
     return 0;
 }
