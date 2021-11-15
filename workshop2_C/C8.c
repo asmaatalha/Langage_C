@@ -10,15 +10,15 @@ int main(){
 
     if (N < 0)
     {
-        printf("le nombre est négatif: %f");
+        printf("le nombre %d négatif.", N);
     }
     else if (N > 0)
     {
-        printf("le nomber est positif: %f");
+        printf("le nomber %d positif.", N);
     }
     else
     {
-        printf("le nomber est égal à zéro: %f");
+        printf("le nomber %d égal à zéro.", N);
     }
     
     
