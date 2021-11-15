@@ -51,12 +51,8 @@ int main(){
         {
             x1 = (-b - sqrt(deleta)) / (2 * a);
             x2 = (-b + sqrt(deleta)) / (2 * a);
-
             printf("la solution est: %f et %f", x1, x2);
-        }
-        
-        
-        
+        }   
     }
     
     
