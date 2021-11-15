@@ -21,7 +21,6 @@ int main(){
         printf("%d Vapeur.", E);
     }
        
-
-    
+       
     return 0;
 }

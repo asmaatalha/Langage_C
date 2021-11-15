@@ -14,7 +14,6 @@ int main(){
     min = an / 825600;
     sec = an / 3536000;
 
-
     printf("Nomber de moi dans l'année: %f", moi);
     printf("Nomber de jours dans l'année: %f", jou);
     printf("Nomber de heures dans l'année: %f", heu);
