@@ -5,18 +5,18 @@ int main()
 {
    int nbr;
  
-   printf("Entrez Le nombre\n");
+   printf("donner un entier\n");
    scanf("%d", &nbr);
  
    if(nbr<0){
-      printf("le nbr est negatif");
+      printf("le nbr %d est negatif", nbr);
    }
    else if(nbr>0){
-      printf("le nbr est positif");
+      printf("le nbr %d est positif", nbr);
    }
    
    else{
-      printf("Le nbr est nul");
+      printf("Le nbr %d est nul", nbr);
    }
    
    return 0;
