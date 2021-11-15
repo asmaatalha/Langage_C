@@ -3,9 +3,9 @@
 
 int main(){
 
-    int a, b, c, x0, x1, x2, x;
+    int a, b, c, x0, x;
 
-    float x1, x2;
+    float x1, x2, deleta;
 
     printf("Entrer la valeur de a: \n");
     scanf("%d", &a);
@@ -22,7 +22,7 @@ int main(){
         {
             if (c == 0)
             {
-                printf("Resultat est: ", c);
+                printf("Resultat est: %d", c);
             }
             else
             {
@@ -32,7 +32,7 @@ int main(){
         else
         {
             x = -c / b;
-            printf("Resultat est: ", x);
+            printf("Resultat est: %d", x);
         }
     }
     else
@@ -45,7 +45,7 @@ int main(){
         else if (deleta == 0)
         {
             x0 = -b / (2 * a);
-            printf("la solution est: ", x0);
+            printf("la solution est: %d", x0);
         }
         else
         {
