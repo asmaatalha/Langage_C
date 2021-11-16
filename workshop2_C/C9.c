@@ -3,26 +3,26 @@
 
 int main(){
 
-    int P;
+    float P;
 
     printf("Point étudiant: \n");
-    scanf("%d", &P);
+    scanf("%f", &P);
 
     if (P >= 10 && P <12)
     {
-        printf("%d la mention passable.", P);
+        printf("%f la mention passable.", P);
     }
     else if (P >= 12 && P <14)
     {
-        printf("%d la mention assez bien.", P);
+        printf("%f la mention assez bien.", P);
     }
     else if (P >= 14 && P <16)
     {
-        printf("%d la mention bien.", P);
+        printf("%f la mention bien.", P);
     }
     else if (P >= 16)
     {
-        printf("%d la mention très bien.", P);
+        printf("%f la mention très bien.", P);
     }    
 
     
