@@ -29,7 +29,7 @@ int main(){
             printf("%c est une voyelle", alphapy);
             break;
         default:
-            printf("%c est une consone");
+            printf("%c est une consone", alphapy);
             break;
     }
        
