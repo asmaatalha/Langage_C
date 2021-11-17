@@ -21,6 +21,5 @@ int main()
         if(ok == 1) 
         printf("%d\n",p);
     }
-    system("pause");
     return 0;
 }
