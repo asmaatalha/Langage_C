@@ -14,7 +14,8 @@ int main()
        A = B;
        B = C;
     }
-    if(n <= 1)
+    
+    if(n == 1 || n == 0)
     {
         printf("U(%d) = 1\n",n);
     }
