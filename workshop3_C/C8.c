@@ -3,26 +3,31 @@
 
 int main()
 {
-    float a, b, m, fa, fb, fm;
+    float a, b, m, fa, fm;
     a = -15;
     b = -10;
-    while(b - a > 0.000001)
+    m  = (a + b) / 2; 
+    while(1)
     {
-        m  = a + (b - a) / 2;
-        fa = a * a * a + 12 * a * a + 1;
-        fb = b * b * b + 12 * b * b + 1;
-        fm = m * m * m + 12 * m * m + 1;
-        if(fa * fm <= 0) 
+        fa = (a * a * a) + (12 * a * a) + 1;
+        fm = (m * m * m) + (12 * m * m) + 1;
+        
+        if(fa * fm < 0) 
         {
             b = m;
         }
         else 
         {
             a = m;
+            m  = (a + b) / 2;
+        }
+        
+        if(b - a < 0,00001)
+        {
+            break;
         }
     }
-    fa = a * a * a + 12 * a * a + 1;
-    printf("%f %f\n", a, fa);
+    printf("%.5f ,%.5f\n", a, b);
     
 
     return 0;
