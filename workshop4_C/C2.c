@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void Echange(int *a, int *b);
+void Echange(int a, int b);
 int main(void) 
 {
     int x, y;
@@ -15,9 +15,9 @@ int main(void)
     return 0;
     
 }
-void Echange(int *a, int *b) 
+void Echange(int a, int b) 
 {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+    int temp = a;
+    a = b;
+    b = temp;
 } 
